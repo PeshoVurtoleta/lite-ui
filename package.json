@@ -1,0 +1,51 @@
+{
+  "name": "@zakkster/lite-ui",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.2",
+  "description": "Micro-interaction library — scroll reveals, parallax, magnetic hover, spring physics, 3D tilt, OKLCH color shifts, confetti, sparkles.",
+  "type": "module",
+  "main": "ui.js",
+  "types": "ui.d.ts",
+  "exports": {
+    ".": {
+      "types": "./UI.d.ts",
+      "import": "./UI.js",
+      "default": "./UI.js"
+    }
+  },
+  "files": [
+    "UI.js",
+    "UI.d.ts",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@zakkster/lite-particles": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@zakkster/lite-smart-observer": "^1.0.0",
+    "@zakkster/lite-color": "^1.0.0",
+    "@zakkster/lite-lerp": "^1.0.0"
+  },
+  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-ui/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
+  "keywords": [
+    "scroll-reveal",
+    "parallax",
+    "magnetic",
+    "spring",
+    "tilt",
+    "micro-interactions",
+    "oklch",
+    "confetti",
+    "animation",
+    "ui"
+  ]
+}
