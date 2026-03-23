@@ -1,7 +1,7 @@
 {
   "name": "@zakkster/lite-ui",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Micro-interaction library — scroll reveals, parallax, magnetic hover, spring physics, 3D tilt, OKLCH color shifts, confetti, sparkles.",
   "type": "module",
   "main": "ui.js",
@@ -16,6 +16,7 @@
   "files": [
     "UI.js",
     "UI.d.ts",
+    "llms.txt",
     "README.md"
   ],
   "license": "MIT",
@@ -27,13 +28,13 @@
     "@zakkster/lite-color": "^1.0.0",
     "@zakkster/lite-lerp": "^1.0.0"
   },
-  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-ui#readme",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-ui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-ui.git"
+    "url": "git+https://github.com/PeshoVurtoleta/lite-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-ui/issues",
+    "url": "https://github.com/PeshoVurtoleta/lite-ui/issues",
     "email": "shinikchiev@yahoo.com"
   },
   "keywords": [
